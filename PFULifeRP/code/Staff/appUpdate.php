@@ -7,7 +7,7 @@ $Role = $_POST['Role'];
 
 
 $sqlArray = array(
-  'AppliStatus' => $3,
+  'AppliStatus' => 3,
 );
 
 $identifyArray = array(
