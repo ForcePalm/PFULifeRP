@@ -14,9 +14,9 @@ $identifyArray = array(
   'SteamID64' => $SteamID64,
 );
 
-$roleupdate = $crud->Update('Profiles', $sqlArray, $identifyArray);
+$roleUpdate = $crud->Update('Profiles', $sqlArray, $identifyArray);
 
-if($roleupdate > 0){
+if($roleUpdate > 0){
   if($Role == 2){
     $staffArray = array(
       'Profiles_SteamID64' => $SteamID64,
